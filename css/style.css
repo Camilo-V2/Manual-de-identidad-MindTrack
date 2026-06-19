@@ -67,7 +67,11 @@ ul { list-style: none; }
 }
  
 .nav-brand img {
+<<<<<<< HEAD
   height: 32px;
+=======
+  height: 50px;
+>>>>>>> fac2ed7 (modificaciones en el index y el style de MindTrack)
   width: auto;
 }
 
@@ -336,6 +340,21 @@ ul { list-style: none; }
   text-align: center;
 }
  
+<<<<<<< HEAD
+=======
+.imagen1 {
+  transform: rotate(20deg);
+}
+
+.imagen2 {
+  transform: scale(1.5, 0.5);
+}
+
+.imagen3 {
+  opacity: 0.3;
+}
+
+>>>>>>> fac2ed7 (modificaciones en el index y el style de MindTrack)
 /* ── COLORES ─────────────────────────────────────────────────── */
 .colores-grid {
   display: grid;
@@ -378,6 +397,15 @@ ul { list-style: none; }
   font-size: 0.78rem;
   color: var(--texto-suave);
 }
+<<<<<<< HEAD
+=======
+
+.color-info p {
+  font-size: 0.75rem;
+  color: #cacaca;
+  
+}
+>>>>>>> fac2ed7 (modificaciones en el index y el style de MindTrack)
  
 /* ── TIPOGRAFÍA ──────────────────────────────────────────────── */
 .typo-grid {
@@ -544,6 +572,78 @@ ul { list-style: none; }
  
 .tabla-normas td:first-child { color: rgba(52,211,153,0.9); }
 .tabla-normas td:last-child  { color: rgba(248,113,113,0.9); }
+<<<<<<< HEAD
+=======
+
+
+
+/* ── EQUIPO ─────────────────────────────────────────────── */
+
+.equipo-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+  margin-top: 30px;
+}
+
+.equipo-card {
+  background: var(--gris-medio);
+  border: 1px solid var(--borde);
+  border-radius: var(--radio);
+  padding: 24px 16px;
+  text-align: center;
+  transition: transform 0.2s, border-color 0.2s;
+}
+
+.equipo-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(124,58,237,0.5);
+}
+
+.equipo-card img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0 auto 12px;
+  border: 2px solid rgba(255,255,255,0.1);
+}
+
+.equipo-card h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.equipo-card p {
+  font-size: 0.8rem;
+  color: var(--texto-suave);
+}
+
+.correo {
+  display: block;
+  margin-top: 8px;
+  font-size: 0.72rem;
+  color: rgba(255, 255, 255, 0.863);
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .equipo-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .equipo-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+>>>>>>> fac2ed7 (modificaciones en el index y el style de MindTrack)
  
 /* ── FOOTER ──────────────────────────────────────────────────── */
 .footer {
@@ -560,7 +660,11 @@ ul { list-style: none; }
 }
 
 .footer-inner img {
+<<<<<<< HEAD
   height: 32px; width: auto; 
+=======
+  height: 55px; width: auto; 
+>>>>>>> fac2ed7 (modificaciones en el index y el style de MindTrack)
 } 
 
 .footer-brand {
@@ -577,7 +681,11 @@ ul { list-style: none; }
 }
 
 .footer-brand img {
+<<<<<<< HEAD
    height: 32px; width: auto; 
+=======
+   height: 42px; width: auto; 
+>>>>>>> fac2ed7 (modificaciones en el index y el style de MindTrack)
 }
 
 .footer-copy {
