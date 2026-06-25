@@ -1,6 +1,4 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Inter:wght@400;500;600&display=swap');
- 
 /* ── VARIABLES ─────────────────────────────────────────────── */
 :root {
   --morado:       #7C3AED;
@@ -67,15 +65,7 @@ ul { list-style: none; }
 }
  
 .nav-brand img {
-<<<<<<< HEAD
-<<<<<<< HEAD
-  height: 32px;
-=======
-  height: 50px;
->>>>>>> fac2ed7 (modificaciones en el index y el style de MindTrack)
-=======
   height: 55px;
->>>>>>> 6368ce0 (Correcciones en el codigo del index y style)
   width: auto;
 }
 
@@ -344,12 +334,7 @@ ul { list-style: none; }
   text-align: center;
 }
  
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
 
->>>>>>> 6368ce0 (Correcciones en el codigo del index y style)
 .imagen1 {
   transform: rotate(20deg);
 }
@@ -362,11 +347,7 @@ ul { list-style: none; }
   opacity: 0.3;
 }
 
-<<<<<<< HEAD
->>>>>>> fac2ed7 (modificaciones en el index y el style de MindTrack)
-=======
 
->>>>>>> 6368ce0 (Correcciones en el codigo del index y style)
 /* ── COLORES ─────────────────────────────────────────────────── */
 .colores-grid {
   display: grid;
@@ -409,24 +390,14 @@ ul { list-style: none; }
   font-size: 0.78rem;
   color: var(--texto-suave);
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
 
-
->>>>>>> 6368ce0 (Correcciones en el codigo del index y style)
 
 .color-info p {
   font-size: 0.75rem;
   color: #cacaca;
   
 }
-<<<<<<< HEAD
->>>>>>> fac2ed7 (modificaciones en el index y el style de MindTrack)
-=======
 
->>>>>>> 6368ce0 (Correcciones en el codigo del index y style)
  
 /* ── TIPOGRAFÍA ──────────────────────────────────────────────── */
 .typo-grid {
@@ -548,13 +519,9 @@ ul { list-style: none; }
   margin-bottom: 8px;
 }
  
-<<<<<<< HEAD
-.p-card p { font-size: 0.8rem; color: var(--texto-suave); }
-=======
 .p-card p { 
   font-size: 0.8rem; color: var(--texto-suave); 
 }
->>>>>>> 6368ce0 (Correcciones en el codigo del index y style)
  
 /* ── TABLA NORMAS ────────────────────────────────────────────── */
 .tabla-normas {
@@ -599,25 +566,14 @@ ul { list-style: none; }
  
 .tabla-normas td:first-child { color: rgba(52,211,153,0.9); }
 .tabla-normas td:last-child  { color: rgba(248,113,113,0.9); }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
 
 
->>>>>>> 6368ce0 (Correcciones en el codigo del index y style)
 
 
 
 /* ── EQUIPO ─────────────────────────────────────────────── */
 
 .equipo-grid {
-<<<<<<< HEAD
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 16px;
-  margin-top: 30px;
-=======
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -626,20 +582,12 @@ ul { list-style: none; }
 
 .equipo-card {
   width: 300px;
->>>>>>> 6368ce0 (Correcciones en el codigo del index y style)
 }
 
 .equipo-card {
   background: var(--gris-medio);
   border: 1px solid var(--borde);
   border-radius: var(--radio);
-<<<<<<< HEAD
-  padding: 24px 16px;
-  text-align: center;
-  transition: transform 0.2s, border-color 0.2s;
-}
-
-=======
   padding: 28px 20px;
   text-align: center;
   transition: all 0.3s ease;
@@ -649,7 +597,6 @@ ul { list-style: none; }
   flex-direction: column;
   align-items: center;
 }
->>>>>>> 6368ce0 (Correcciones en el codigo del index y style)
 .equipo-card:hover {
   transform: translateY(-4px);
   border-color: rgba(124,58,237,0.5);
@@ -678,46 +625,27 @@ ul { list-style: none; }
 
 .correo {
   display: block;
-<<<<<<< HEAD
-  margin-top: 8px;
-  font-size: 0.72rem;
-  color: rgba(255, 255, 255, 0.863);
-  word-break: break-word;
-  overflow-wrap: anywhere;
-=======
   margin-top: auto;
   padding-top: 15px;
   font-size: 0.75rem;
   color: rgba(255,255,255,0.85);
   word-break: break-word;
->>>>>>> 6368ce0 (Correcciones en el codigo del index y style)
 }
 
 
 /* RESPONSIVE */
 @media (max-width: 900px) {
   .equipo-grid {
-<<<<<<< HEAD
-    grid-template-columns: repeat(3, 1fr);
-=======
     grid-template-columns: repeat(2, 1fr);
->>>>>>> 6368ce0 (Correcciones en el codigo del index y style)
   }
 }
 
 @media (max-width: 600px) {
   .equipo-grid {
-<<<<<<< HEAD
-    grid-template-columns: 1fr 1fr;
-  }
-}
->>>>>>> fac2ed7 (modificaciones en el index y el style de MindTrack)
-=======
     grid-template-columns: 1fr;
   }
 }
 
->>>>>>> 6368ce0 (Correcciones en el codigo del index y style)
  
 /* ── FOOTER ──────────────────────────────────────────────────── */
 .footer {
@@ -734,18 +662,9 @@ ul { list-style: none; }
 }
 
 .footer-inner img {
-<<<<<<< HEAD
-<<<<<<< HEAD
-  height: 32px; width: auto; 
-=======
-  height: 55px; width: auto; 
->>>>>>> fac2ed7 (modificaciones en el index y el style de MindTrack)
-} 
-=======
   height: 55px;
   width: auto;
 }
->>>>>>> 6368ce0 (Correcciones en el codigo del index y style)
 
 .footer-brand {
   display: flex;
@@ -761,16 +680,8 @@ ul { list-style: none; }
 }
 
 .footer-brand img {
-<<<<<<< HEAD
-<<<<<<< HEAD
-   height: 32px; width: auto; 
-=======
-   height: 42px; width: auto; 
->>>>>>> fac2ed7 (modificaciones en el index y el style de MindTrack)
-=======
   height: 55px;
   width: auto;
->>>>>>> 6368ce0 (Correcciones en el codigo del index y style)
 }
 
 .footer-copy {
